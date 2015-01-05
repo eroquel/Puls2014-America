@@ -1,13 +1,47 @@
+a
+{
+	color: #22BCE0;
+}
 body
 {
-	background: #EFEFEF;
-	color: #4C4C4C;
+	background: #EEEEEE;
 	font-family: Arial;
-	font-size: 16px;
-	margin: 0;
+	font-size: 1.2em;
 }
 header
 {
 	background: #434343;
-	padding: 0.5em;
+	color: white;
+	padding:  0.5em;
+}
+header h1 
+{
+	font-size: 18px;
+	font-weight: normal;
+}
+header #logo img 
+{
+	width: 52px;
+}
+header #avatar img 
+{
+	width: 55px;
+}
+
+
+footer p:first-child
+{
+	margin-bottom: 0px;
+}
+footer p:last-child
+{
+	margin-top: 0px;
+}
+footer p:last-child:after
+{
+	content: "     siii    ";
+}
+footer p:last-child:before
+{
+	content: "holaaa";
 }
